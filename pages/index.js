@@ -1,8 +1,11 @@
+import HousePaintPreview from '@/components/HousePaintPreview';
+
 export default function Home() {
   return (
-    <div style={{ padding: 20 }}>
-      <h1>House Paint Preview (Demo)</h1>
-      <p>Please follow the README to complete setup.</p>
+    <div className="p-6 max-w-6xl mx-auto">
+      {/* This is the real preview component from your Repaint-api package */}
+      <HousePaintPreview />
     </div>
   );
 }
+
