@@ -1,4 +1,5 @@
-import HousePaintPreview from '@/components/HousePaintPreview';
+import HousePaintPreview from '../components/HousePaintPreview';
+
 
 export default function Home() {
   return (
