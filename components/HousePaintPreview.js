@@ -62,7 +62,7 @@ export default function HousePaintPreview() {
         <input type="file" accept="image/*" onChange={handleFileChange} />
         <input
           type="text"
-          placeholder="Enter paint color (e.g. #ff0000 or "Blue")"
+          placeholder="Enter paint color (e.g. #ff0000 or Blue)"
           value={color}
           onChange={handleColorChange}
           className="border p-1"
