@@ -8,7 +8,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "formidable": "^3.5.4",
     "next": "latest",
+    "openai": "^4.97.0",
     "react": "latest",
     "react-dom": "latest"
   }
